@@ -1,0 +1,27 @@
+services:
+  warehouse-sim:
+    build:
+      context: ./warehouse-sim
+    hostname: warehouse-sim
+    networks:
+      - internal_net
+
+  harness:
+    build:
+      context: ./harness
+    env_file:
+      - .env
+    volumes:
+    - ./harness/logs:/app/logs
+    - ./baseline-results:/app/baseline-results
+    - ./inputs:/app/inputs:ro
+    networks:
+      - internal_net
+      - model_outbound
+    depends_on:
+      - warehouse-sim
+
+networks:
+  internal_net:
+    internal: true
+  model_outbound:

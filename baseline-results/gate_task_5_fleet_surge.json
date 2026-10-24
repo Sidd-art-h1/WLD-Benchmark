@@ -1,0 +1,7 @@
+{
+  "task_id": "task_5_fleet_surge",
+  "seed": 42,
+  "noop": 0.0,
+  "oracle": 1.0,
+  "passed": true
+}

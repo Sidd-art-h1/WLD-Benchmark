@@ -1,0 +1,2 @@
+{"step": 1, "errors": ["Error code: 401 - {'error': {'message': 'Incorrect API key provided: mock-key**************ting. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}"], "termination": "model_error"}
+{"timestamp": "2026-10-24T06:16:57.504115+00:00", "step": 1, "seed": 42, "state_hash": "a122543c", "reward": 0.0, "done": true, "details": {"score": 0.0, "orders_fulfilled": "0/4", "on_time_deliveries": 0, "collisions": 0, "immobilized_amrs": 0}}

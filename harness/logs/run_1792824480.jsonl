@@ -1,0 +1,2 @@
+{"step": 1, "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: mock-key**************ting. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}", "termination": "model_error"}
+{"timestamp": "2026-10-24T06:48:01.139237+00:00", "task_id": "task_3_cross_aisle_deadlock", "seed": 42, "final": {"score": 0.0, "orders_fulfilled": "0/4", "on_time_deliveries": 0, "collisions": 0, "immobilized_amrs": 0}, "termination": "step_cap"}

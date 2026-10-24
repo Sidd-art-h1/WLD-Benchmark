@@ -1,0 +1,1 @@
+Coordinate AMRs carefully to avoid head-on deadlocks in intersections.

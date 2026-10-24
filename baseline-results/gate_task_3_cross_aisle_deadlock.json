@@ -1,0 +1,7 @@
+{
+  "task_id": "task_3_cross_aisle_deadlock",
+  "seed": 42,
+  "noop": 0.0,
+  "oracle": 1.0,
+  "passed": true
+}
